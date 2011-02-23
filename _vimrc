@@ -15,6 +15,6 @@ syn on
 
 " Add pathogen support
 " newest version can be found at:
-" https://github.com/tpope/vim-pathogen/blob/master/autoload/pathogen.vim
+" https://github.com/tpope/vim-pathogen/raw/master/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
