@@ -20,6 +20,7 @@ set hls
 set ruler
 set splitright " causes the new window to be on the right
 set splitbelow " causes the new window to be on the bottom
+colorscheme darkblue
 
 syn on
 
