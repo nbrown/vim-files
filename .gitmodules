@@ -6,4 +6,4 @@
 	url = git://github.com/tpope/vim-git.git
 [submodule "bundle/vim-perl"]
 	path = bundle/vim-perl
-	url = git://github.com/petdance/vim-perl.git
+	url = git://github.com/vim-perl/vim-perl.git
