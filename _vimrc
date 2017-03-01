@@ -1,3 +1,8 @@
+set nocompatible
+
+
+
+
 " Add pathogen support
 " newest version can be found at:
 " https://github.com/tpope/vim-pathogen/raw/master/autoload/pathogen.vim
@@ -20,7 +25,39 @@ set hls
 set ruler
 set splitright " causes the new window to be on the right
 set splitbelow " causes the new window to be on the bottom
+set mouse=a
+set mousehide
+scriptencoding utf-8
+
 colorscheme darkblue
+set background=dark         " Assume a dark background
 
-syn on
+" Allow to trigger background
+function! ToggleBG()
+    let s:tbg = &background
+    " Inversion
+    if s:tbg == "dark"
+        set background=light
+    else
+        set background=dark
+    endif
+endfunction
+noremap <leader>bg :call ToggleBG()<CR>
 
+" Wrapped lines goes down/up to next row, rather than next line in file.
+noremap j gj
+noremap k gk
+
+
+
+noremap <leader>ev :split $MYVIMRC<CR>
+noremap <leader>sv :source $MYVIMRC<CR>
+
+" Toggle search highlighting
+nmap <silent> <leader>/ :set invhlsearch<CR>
+
+
+syntax on
+
+let mapleader = ','
+let maplocalleader = '_'
