@@ -42,6 +42,12 @@ function! ToggleBG()
         set background=dark
     endif
 endfunction
+
+
+" Set leader and localleader prior to setting any mappings
+let mapleader = ','
+let maplocalleader = '_'
+
 noremap <leader>bg :call ToggleBG()<CR>
 
 " Wrapped lines goes down/up to next row, rather than next line in file.
@@ -59,5 +65,3 @@ nmap <silent> <leader>/ :set invhlsearch<CR>
 
 syntax on
 
-let mapleader = ','
-let maplocalleader = '_'
