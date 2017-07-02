@@ -16,3 +16,15 @@
 [submodule "bundle/vim-plugins"]
 	path = bundle/vim-plugins
 	url = https://github.com/WolfgangMehner/vim-plugins.git
+[submodule "bundle/vim-rhubarb"]
+	path = bundle/vim-rhubarb
+	url = //github.com/tpope/vim-rhubarb.git
+[submodule "bundle/vim-fish"]
+	path = bundle/vim-fish
+	url = //github.com/dag/vim-fish.git
+[submodule "bundle/vim-hier"]
+	path = bundle/vim-hier
+	url = git@github.com:jceb/vim-hier.git
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = https://github.com/w0rp/ale.git
