@@ -28,3 +28,12 @@
 [submodule "bundle/ale"]
 	path = bundle/ale
 	url = https://github.com/w0rp/ale.git
+[submodule "bundle/VimCompletesMe"]
+	path = bundle/VimCompletesMe
+	url = git@github.com:ajh17/VimCompletesMe.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
+[submodule "bundle/vim-tmux"]
+	path = bundle/vim-tmux
+	url = git://github.com/tmux-plugins/vim-tmux.git
