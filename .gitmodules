@@ -37,3 +37,9 @@
 [submodule "bundle/vim-tmux"]
 	path = bundle/vim-tmux
 	url = git://github.com/tmux-plugins/vim-tmux.git
+[submodule "bundle/vim-dispatch"]
+	path = bundle/vim-dispatch
+	url = git://github.com/tpope/vim-dispatch
+[submodule "bundle/vim-qf"]
+	path = bundle/vim-qf
+	url = git://github.com/romainl/vim-qf
