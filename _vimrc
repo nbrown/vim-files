@@ -123,7 +123,7 @@ cmap w!! w !sudo tee % >/dev/null
 cnoremap %% <C-R>=fnameescape(expand('%:h')).'/'<cr>
 map <leader>ew :e %%
 map <leader>es :sp %%
-map <leader>ev :vsp %%
+map <leader>evs :vsp %%
 map <leader>et :tabe %%
 
 let g:ale_linters = {'perl6': 'all'}
