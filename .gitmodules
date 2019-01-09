@@ -40,3 +40,6 @@
 [submodule "bundle/vim-qf"]
 	path = bundle/vim-qf
 	url = git://github.com/romainl/vim-qf
+[submodule "pack/git-plugins/start/ale"]
+	path = pack/git-plugins/start/ale
+	url = git://github.com/w0rp/ale.git
