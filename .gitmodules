@@ -9,19 +9,19 @@
 	url = git://github.com/vim-perl/vim-perl.git
 [submodule "bundle/mojo.vim"]
 	path = bundle/mojo.vim
-	url = https://github.com/yko/mojo.vim.git
+	url = git://github.com/yko/mojo.vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+	url = git://github.com/scrooloose/nerdtree.git
 [submodule "bundle/vim-plugins"]
 	path = bundle/vim-plugins
-	url = https://github.com/WolfgangMehner/vim-plugins.git
+	url = git://github.com/WolfgangMehner/vim-plugins.git
 [submodule "bundle/vim-rhubarb"]
 	path = bundle/vim-rhubarb
-	url = //github.com/tpope/vim-rhubarb.git
+	url = git://github.com/tpope/vim-rhubarb.git
 [submodule "bundle/vim-fish"]
 	path = bundle/vim-fish
-	url = //github.com/dag/vim-fish.git
+	url = git://github.com/dag/vim-fish.git
 [submodule "bundle/vim-hier"]
 	path = bundle/vim-hier
 	url = git@github.com:jceb/vim-hier.git
