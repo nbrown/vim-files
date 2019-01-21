@@ -40,3 +40,6 @@
 [submodule "pack/git-plugins/start/ale"]
 	path = pack/git-plugins/start/ale
 	url = git://github.com/w0rp/ale.git
+[submodule "pack/git-plugins/taglist.vim"]
+	path = pack/git-plugins/taglist.vim
+	url = git://github.com/stmuk/taglist.vim.git
