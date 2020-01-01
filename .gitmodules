@@ -43,3 +43,21 @@
 [submodule "pack/git-plugins/taglist.vim"]
 	path = pack/git-plugins/start/taglist.vim
 	url = git://github.com/stmuk/taglist.vim.git
+[submodule "pack/git-plugins/start/vimspector"]
+	path = pack/git-plugins/start/vimspector
+	url = git://github.com/puremourning/vimspector.git
+[submodule "pack/git-plugins/start/vader.vim"]
+	path = pack/git-plugins/start/vader.vim
+	url = git://github.com/junegunn/vader.vim.git
+[submodule "pack/git-plugins/start/vim-obsession"]
+	path = pack/git-plugins/start/vim-obsession
+	url = git://github.com/tpope/vim-obsession.git
+[submodule "pack/git-plugins/start/vim-ctrlposession"]
+	path = pack/git-plugins/start/vim-ctrlposession
+	url = git://github.com/gikmx/vim-ctrlposession.git
+[submodule "pack/git-plugins/start/vim-prosession"]
+	path = pack/git-plugins/start/vim-prosession
+	url = git://github.com/dhruvasagar/vim-prosession.git
+[submodule "pack/git-plugins/start/ctrlp.vim"]
+	path = pack/git-plugins/start/ctrlp.vim
+	url = git://github.com/ctrlpvim/ctrlp.vim.git

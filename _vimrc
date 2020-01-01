@@ -46,6 +46,7 @@ if has('statusline')
     set statusline+=%w%h%m%r                 " Options
     set statusline+=%{fugitive#statusline()} " Git Hotness
     set statusline+=\ [%{&ff}/%Y]            " Filetype
+    set statusline+=\ %{ObsessionStatus()}   " obsession status
     set statusline+=\ [%{getcwd()}]          " Current dir
     set statusline+=%=%-14.(%l,%c%V%)\ %p%%  " Right aligned file nav info
 endif
@@ -58,7 +59,7 @@ if has('clipboard')
     endif
 endif
 
-runtime macros/matchit.vim
+packadd matchit
 
 colorscheme darkblue
 set background=dark         " Assume a dark background
