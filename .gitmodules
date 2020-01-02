@@ -34,10 +34,6 @@
 	path = bundle/vim-hier
 	url = git@github.com:jceb/vim-hier.git
 	branch = master
-[submodule "bundle/ale"]
-	path = bundle/ale
-	url = https://github.com/w0rp/ale.git
-	branch = master
 [submodule "bundle/VimCompletesMe"]
 	path = bundle/VimCompletesMe
 	url = git@github.com:ajh17/VimCompletesMe.git
