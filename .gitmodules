@@ -10,10 +10,6 @@
 	path = bundle/vim-perl
 	url = git://github.com/vim-perl/vim-perl.git
 	branch = master
-[submodule "bundle/mojo.vim"]
-	path = bundle/mojo.vim
-	url = https://github.com/yko/mojo.vim.git
-	branch = master
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
