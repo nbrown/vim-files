@@ -1,60 +1,60 @@
 [submodule "bundle/vim-git"]
-	path = bundle/vim-git
+	path = pack/git-plugins/start/vim-git
 	url = git://github.com/tpope/vim-git.git
 	branch = master
     ignore = untracked
 [submodule "bundle/vim-perl"]
-	path = bundle/vim-perl
+	path = pack/git-plugins/start/vim-perl
 	url = git://github.com/vim-perl/vim-perl.git
 	branch = master
     ignore = untracked
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+	path = pack/git-plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 	branch = master
     ignore = untracked
 [submodule "bundle/vim-plugins"]
-	path = bundle/vim-plugins
+	path = pack/git-plugins/start/vim-plugins
 	url = https://github.com/WolfgangMehner/vim-plugins.git
 	branch = master
     ignore = untracked
 [submodule "bundle/vim-rhubarb"]
-	path = bundle/vim-rhubarb
+	path = pack/git-plugins/start/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
 	branch = master
     ignore = untracked
 [submodule "bundle/vim-fish"]
-	path = bundle/vim-fish
+	path = pack/git-plugins/start/vim-fish
 	url = https://github.com/dag/vim-fish.git
 	branch = master
     ignore = untracked
 [submodule "bundle/vim-hier"]
-	path = bundle/vim-hier
+	path = pack/git-plugins/start/vim-hier
 	url = git@github.com:jceb/vim-hier.git
 	branch = master
     ignore = untracked
 [submodule "bundle/VimCompletesMe"]
-	path = bundle/VimCompletesMe
+	path = pack/git-plugins/start/VimCompletesMe
 	url = git@github.com:ajh17/VimCompletesMe.git
 	branch = master
     ignore = untracked
 [submodule "bundle/tabular"]
-	path = bundle/tabular
+	path = pack/git-plugins/start/tabular
 	url = git://github.com/godlygeek/tabular.git
 	branch = master
     ignore = untracked
 [submodule "bundle/vim-tmux"]
-	path = bundle/vim-tmux
+	path = pack/git-plugins/start/vim-tmux
 	url = git://github.com/tmux-plugins/vim-tmux.git
 	branch = master
     ignore = untracked
 [submodule "bundle/vim-dispatch"]
-	path = bundle/vim-dispatch
+	path = pack/git-plugins/start/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch
 	branch = master
     ignore = untracked
 [submodule "bundle/vim-qf"]
-	path = bundle/vim-qf
+	path = pack/git-plugins/start/vim-qf
 	url = git://github.com/romainl/vim-qf
 	branch = master
     ignore = untracked
