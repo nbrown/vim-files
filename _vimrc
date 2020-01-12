@@ -3,12 +3,6 @@ set nocompatible
 
 
 
-" Add pathogen support
-" newest version can be found at:
-" https://github.com/tpope/vim-pathogen/raw/master/autoload/pathogen.vim
-filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 filetype plugin indent on
 
 set hidden " allow hidden buffers
