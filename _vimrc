@@ -2,6 +2,36 @@
 " must be the first option set because it changes other options
 set nocompatible
 
+" Install vim-plug if it isn't installed already
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/plugged')
+Plug 'ajh17/VimCompletesMe'
+Plug 'w0rp/ale'
+Plug 'alker0/chezmoi.vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'godlygeek/tabular'
+Plug 'stmuk/taglist.vim'
+Plug 'junegunn/vader.vim'
+Plug 'gikmx/vim-ctrlposession' | Plug 'tpope/vim-obsession'
+Plug 'tpope/vim-dispatch'
+Plug 'dag/vim-fish'
+Plug 'tpope/vim-git'
+Plug 'jceb/vim-hier'
+Plug 'vim-perl/vim-perl'
+Plug 'WolfgangMehner/vim-plugins'
+Plug 'dhruvasagar/vim-prosession'
+Plug 'romainl/vim-qf'
+Plug 'tpope/vim-rhubarb'
+Plug 'tmux-plugins/vim-tmux'
+Plug 'puremourning/vimspector'
+call plug#end()
+
 filetype plugin indent on
 
 " Vim with default settings does not allow easy switching between multiple files
@@ -189,9 +219,10 @@ map <leader>et :tabe %%
 let g:ale_linters = {'perl6': 'all'}
 
 
-" Load all plugins now.
-" Plugins need to be added to runtimepath before helptags can be generated.
-packloadall
-" Load all of the helptags now, after plugins have been loaded.
-" All messages and errors will be ignored.
-silent! helptags ALL
+
+"""" " Load all plugins now.
+"""" " Plugins need to be added to runtimepath before helptags can be generated.
+"""" packloadall
+"""" " Load all of the helptags now, after plugins have been loaded.
+"""" " All messages and errors will be ignored.
+"""" silent! helptags ALL
